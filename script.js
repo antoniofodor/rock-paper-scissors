@@ -12,7 +12,7 @@ function getComputerChoice() {
     let choice = "";
 
     // set to random number between 0 and 2 (inclusive)
-   let selector = Math.floor(Math.random() * 2);
+   let selector = Math.floor(Math.random() * 3);
    
    switch(selector) {
     case 0:
